@@ -1,0 +1,86 @@
+.login {
+  width: 100%;
+  min-height: 100%;
+  background-image: url('../../assets/bg.jpg');
+  background-size: 100% 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.login-content {
+  width: 500px;
+  height: 400px;
+  background: #fff;
+  margin: 200px auto;
+  padding: 45px 40px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-content div {
+  width: 100%;
+}
+
+.haed {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid var(--main-color);;
+  padding-bottom: 5px;
+  width: 80% !important;
+  animation: haed 2s infinite;
+}
+
+@keyframes haed {
+  30% {
+    opacity: 0.3;
+  }
+}
+
+
+.logoImg {
+  width: 45px;
+  margin-top: -5px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.login-form .login-form-button {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px
+}
+
+.author {
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+  animation: author 2s infinite;
+}
+
+@keyframes author {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.author a {
+  color: var(--main-color);;
+}
+
+.author p {
+  font-size: 12px;
+}

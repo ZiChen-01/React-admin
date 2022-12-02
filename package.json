@@ -1,0 +1,68 @@
+{
+  "name": "react-admin",
+  "version": "0.1.0",
+  "private": true,
+  "author":"ZiChen_Jiang",
+  "scripts": {
+    "start": "craco start --mode development",
+    "start:test": "craco start --mode test",
+    "start:pro": "craco start --mode production",
+    "build": "craco build --mode development",
+    "build:test": "craco build --mode test",
+    "build:pro": "craco build --mode production",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.48",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/three": "^0.146.0",
+    "antd": "^4.22.5",
+    "axios": "^0.27.2",
+    "crypto-js": "^4.1.1",
+    "history": "^5.3.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
+    "nprogress": "^0.2.0",
+    "particles-bg": "^2.5.5",
+    "react": "^18.2.0",
+    "react-amap": "^1.2.8",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "three": "^0.146.0",
+    "typescript": "^4.7.4",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^6.4.5",
+    "@types/antd": "^1.0.0",
+    "@types/crypto-js": "^4.1.1",
+    "@types/nprogress": "^0.2.0",
+    "simple-progress-webpack-plugin": "^2.0.0"
+  }
+}

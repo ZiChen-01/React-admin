@@ -1,0 +1,14 @@
+@import '~antd/dist/antd.css';
+
+#root {
+    height: 100%;
+}
+/* 全局主题颜色配置 */
+:root {
+    --main-color: #1890ff;
+    --main-bg: rgb(255, 255, 255);
+    --logo-border-color: rebeccapurple;
+    --header-height: 68px;
+    --content-padding: 10px 20px;
+    --base-color: var(--main-color);
+}
