@@ -2,7 +2,7 @@
   "name": "react-admin",
   "version": "0.1.0",
   "private": true,
-  "author":"ZiChen_Jiang",
+  "author": "ZiChen_Jiang",
   "scripts": {
     "start": "craco start --mode development",
     "start:test": "craco start --mode test",
@@ -22,6 +22,7 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/three": "^0.146.0",
+    "ahooks": "^3.7.2",
     "antd": "^4.22.5",
     "axios": "^0.27.2",
     "crypto-js": "^4.1.1",
