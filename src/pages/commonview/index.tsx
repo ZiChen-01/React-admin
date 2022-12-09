@@ -130,7 +130,7 @@ const Commonview: React.FC = () => {
                     <div className='breadcrumb'>
                         {routeList.map((item, index) => {
                             return (
-                                <div key={index} style={{ color: item.colordisabled == 'true' ? '#1890ff' : '' }}>
+                                <div key={index} style={{ color: item.colordisabled == 'true' ? 'var(--main-color)' : '' }}>
                                     <span>{item.icon}</span>
                                     <span onClick={() => { toRouter(item) }} className="breadcrumbTitle"> {item.label}</span>
                                     {index != 0 ? <CloseOutlined onClick={() => { delRouter(item, index) }} /> : <span style={{width:'14px'}}></span>}

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './index.css'
-import { Form, Input, Button, message } from 'antd';
+import { Form, Input, Button, message,Checkbox  } from 'antd';
+import type { CheckboxChangeEvent } from 'antd/es/checkbox';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import request from '@/api'
 import { useNavigate } from 'react-router-dom'
@@ -63,6 +64,11 @@ const Login: React.FC = () => {
     const token: string | null = localStorage.getItem('Autn-Token')
     if (token) navigate('/home')
   });
+  
+  // 记住密码
+  const onChange = (e: CheckboxChangeEvent) => {
+    console.log(`checked = ${e.target.checked}`);
+  };
 
 
   return (
@@ -110,6 +116,9 @@ const Login: React.FC = () => {
 
               />
             </Form.Item>
+			 
+			 <Checkbox onChange={onChange}>记住密码</Checkbox>
+			  
             <Form.Item>
               <Button type="primary" htmlType="submit" className="login-form-button" loading={loading}>
                 {submitLoginName}
