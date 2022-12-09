@@ -60,6 +60,9 @@ react-ant-admin  蚂蚁大数据监控系统
 
 `utils`  工具库
 
+`App.css`  全局主题配色
+`App.tsx`  入口根组件
+
 ## 运行打包
 
 - git仓库
